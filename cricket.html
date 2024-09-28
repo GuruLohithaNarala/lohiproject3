@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Legends Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Cricket Legends Hub</h1>
+        <p>Cricket is a bat-and-ball game that is played between two teams of eleven players on a field, at the centre of which is a 22-yard (20-metre; 66-foot) pitch with a wicket at each end, each comprising two bails balanced on three stumps. Two players from the batting team (the striker and nonstriker) stand in front of either wicket holding bats, with one player from the fielding team (the bowler) bowling the ball towards the striker's wicket from the opposite end of the pitch. The striker's goal is to hit the bowled ball with the bat and then switch places with the nonstriker, with the batting team scoring one run for each exchange. Runs are also scored when the ball reaches or crosses the boundary of the field or when the ball is bowled illegally.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#players">Player Profiles</a></li>
+            <li><a href="#matches">Top Matches</a></li>
+            <li><a href="#fan-zone">Fan Zone</a></li>
+        </ul>
+    </nav>
+
+    <section id="players">
+        <h2 style="text-align: center;">Player Profiles</h2>
+        <div style="display: flex;width: 100%;overflow: auto;">
+        <div>
+        <h3 style="text-align: center;">MS Dhoni</h3>
+        <img src="https://w0.peakpx.com/wallpaper/16/917/HD-wallpaper-dhoni-with-icc-cricket-world-cup-dhoni-icc-cricket-world-cup-cricketer-batsman-captain-legend.jpg" alt="Ms Dhoni" width="100%" height="400px">
+        <p>Mahendra Singh Dhoni is an Indian professional cricketer who plays as a right-handed batter and a wicket-keeper. Widely regarded as one of the most prolific wicket-keeper batsmen and captains, he represented the Indian cricket team and was the captain of the side in limited overs formats from 2007 to 2017 and in test cricket from 2008 to 2014. Dhoni has captained the most international matches and is the most successful Indian captain. He has led India to victory in the 2007 ICC World Twenty20, the 2011 Cricket World Cup, and the 2013 ICC Champions Trophy, being the only captain to win three different limited overs ICC tournaments. He also led the teams that won the Asia Cup in 2010, 2016 and was a member of the title winning squad in 2018.
+        </p>
+        </div>
+        <div>
+            <h3 style="text-align: center;">virat kohili</h3>
+            <img src="https://staticg.sportskeeda.com/editor/2024/05/d973a-17150616187538-1920.jpg" alt="virat kohili" width="100%" height="400px">
+            <p>Virat Kohli  is an Indian international cricketer who plays Test and ODI cricket for the Indian national team. A former captain in all formats of the game, Kohli retired from the T20I format following India's win at the 2024 T20 World Cup. He's a right-handed batsman and an occasional unorthodox right arm quick bowler. Kohli is regarded as one of the greatest batsmen of all time and the greatest in the modern era. He holds the highest IPL run-scorer record, ranks third in T20I, third in ODI, and stands the fourth-highest in international cricket.[4] He also holds the record for scoring the most centuries in ODI cricket and is second in the list of most international centuries scored.</p>
+        </div>
+        
+        </div>
+    </section>
+
+    <section id="matches">
+        <h2>Top Matches</h2>
+        <p>Captain Dhoni and his deputy Kohli guided India to the semifinal of the T20 World Cup 2016 with a clinical 67-run partnership off 31 balls in a virtual quarterfinal against Australia in Mohali. India was stuttering at 94 for four in 14 overs after the dismissal of Yuvraj Singh when the famed duo took over and steered the ‘Men in Blue’ to a six-wicket win. Kohli was the aggressor with an unbeaten 51-ball 82 while Dhoni, 18 not out in 10 balls, imparted the finishing touches with a four at long-on off a low full toss from James Faulkner as India cruised home with five balls to spare.</p>
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/iO5LjrQaN9s?si=hhDoM_kLT1g0TlZK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </section>
+
+    <section id="fan-zone">
+        <h2>Fan Zone</h2>
+        
+        <form action="/submit-survey" method="POST">
+            <label for="cricketer">Choose your favorite cricketer:</label><br><br>
+    
+            <input type="radio" id="virat" name="cricketer" value="Virat Kohli">
+            <label for="virat">Virat Kohli</label><br>
+    
+            <input type="radio" id="sachin" name="cricketer" value="Sachin Tendulkar">
+            <label for="sachin">Sachin Tendulkar</label><br>
+    
+            <input type="radio" id="smith" name="cricketer" value="Steve Smith">
+            <label for="smith">Steve Smith</label><br>
+    
+            <input type="radio" id="root" name="cricketer" value="Joe Root">
+            <label for="root">Joe Root</label><br>
+    
+            <input type="radio" id="dhoni" name="cricketer" value="MS Dhoni">
+            <label for="dhoni">MS Dhoni</label><br><br>
+    
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+</body>
+</html>
